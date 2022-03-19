@@ -1,55 +1,81 @@
-# 《DAST动态应用程序安全测试》
-DAST在安全测试领域相当重要。是解决安全漏洞的有效方法利器，也是发现漏洞的最直接方法。DAST有时弊病百出，比如效果严重依赖测试人员技术水平、不当的测试会对系统产生影响、特定漏洞无法检测等问题。但DAST的出现直接推动了安全漏洞的出现。作者：[0e0w](https://github.com/0e0w)
+# 《深入理解DAST动态应用程序安全测试》
+DAST在安全测试领域相当重要，不只是解决安全漏洞的有效方法，也是发现漏洞的最直接方法。尽管DAST有时弊病百出，比如效果严重依赖测试人员技术水平、不当的测试会对系统产生影响、特定漏洞无法检测等问题。但DAST的出现直接推动了安全漏洞的出现。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月17日，最近的一次更新时间为2022年2月6日。
+本项目创建于2022年1月17日，最近的一次更新时间为2022年2月19日。
 
-- [01-DAST基础资源](https://github.com/ASTTeam/DAST#01-dast%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90)
-- [02-DAST工具产品](https://github.com/ASTTeam/DAST#02-dast%E5%B7%A5%E5%85%B7%E4%BA%A7%E5%93%81)
-- [03-DAST方法思想](https://github.com/ASTTeam/DAST#03-dast%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3)
-- [04-DAST未来发展](https://github.com/ASTTeam/DAST#04-dast%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95)
-- [05-DAST参考资源](https://github.com/ASTTeam/DAST#05-dast%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90)
+- [01-DAST资源](https://github.com/ASTTeam/DAST#01-dast%E8%B5%84%E6%BA%90)
+- [02-DAST工具](https://github.com/ASTTeam/DAST#02-dast%E5%B7%A5%E5%85%B7)
+- [03-DAST原理](https://github.com/ASTTeam/DAST#03-dast%E5%8E%9F%E7%90%86)
+- [04-DAST开发](https://github.com/ASTTeam/DAST#04-dast%E5%BC%80%E5%8F%91)
+- [05-DAST未来](https://github.com/ASTTeam/DAST#05-dast%E6%9C%AA%E6%9D%A5)
+- [06-DAST参考](https://github.com/ASTTeam/DAST#06-dast%E5%8F%82%E8%80%83)
 
-## 01-DAST基础资源
+## 01-DAST资源
 
-- https://github.com/banzaicloud/dast-operator
-- https://github.com/analysis-tools-dev/dynamic-analysis
-- https://github.com/zaproxy/action-full-scan
-- https://github.com/probr/probr-core
-- https://github.com/yufei1900/DAST_segmentation
-- https://github.com/jacksingleton/dast-pipeline
-- https://github.com/zaproxy/zaproxy
-- https://github.com/we45/ThreatPlaybook
-- https://github.com/probr/probr-core
-- https://github.com/Yelp/fuzz-lightyear
-- https://github.com/secdec/attack-surface-detector-zap
-- https://github.com/yufei1900/DAST_segmentation
-- https://github.com/mvnnn/DAStudentWeb
-- https://github.com/tristanlatr/burpa
-- https://github.com/crashtest-security/github-action
-- https://github.com/julietavuan/dast
-- https://github.com/MettupalliInc/DAST
+一、书籍资源
 
-## 02-DAST工具产品
+二、学术论文
 
-一、AWVS
+三、视频资源
 
-二、NESSUS
+四、优秀资源
+
+五、英文资源
+
+六、其他资源
+- [ ] https://github.com/banzaicloud/dast-operator
+- [ ] https://github.com/analysis-tools-dev/dynamic-analysis
+- [ ] https://github.com/zaproxy/action-full-scan
+- [ ] https://github.com/probr/probr-core
+- [ ] https://github.com/yufei1900/DAST_segmentation
+- [ ] https://github.com/jacksingleton/dast-pipeline
+- [ ] https://github.com/zaproxy/zaproxy
+- [ ] https://github.com/we45/ThreatPlaybook
+- [ ] https://github.com/probr/probr-core
+- [ ] https://github.com/Yelp/fuzz-lightyear
+- [ ] https://github.com/secdec/attack-surface-detector-zap
+- [ ] https://github.com/yufei1900/DAST_segmentation
+- [ ] https://github.com/mvnnn/DAStudentWeb
+- [ ] https://github.com/tristanlatr/burpa
+- [ ] https://github.com/crashtest-security/github-action
+- [ ] https://github.com/julietavuan/dast
+- [ ] https://github.com/MettupalliInc/DAST
+
+## 02-DAST工具
+
+一、优秀工具
+- AWVS
+- NESSUS
+- Xray
+- BurpSuite
+
+二、开源工具
+
+三、商业产品
+
+四、其他工具
 - https://github.com/Hypdncy/NessusToReport
 
-三、Xray
+## 03-DAST原理
 
-三、BurpSuite
+一、DAST基础
 
-## 03-DAST方法思想
+二、DAST分类
+- 主动扫描
+- 被动扫描
+  - https://github.com/0e0w/PassivesScan
 
-一、主动扫描
+## 04-DAST开发
 
-二、被动扫描
+- 如何开发一款优秀的DAST工具？
 
-- https://github.com/0e0w/PassivesScan
-
-## 04-DAST未来发展
+## 05-DAST未来
 
 - 什么样的DAST是未来有竞争力的产品？
 
-## 05-DAST参考资源
+## 06-DAST参考
+
+- http://github.com/Goqi
+
+[![Stargazers over time](https://starchart.cc//ASTTeam/DAST.svg)](https://starchart.cc/ASTTeam/DAST)
+
