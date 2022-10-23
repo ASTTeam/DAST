@@ -1,7 +1,10 @@
 # 《深入理解DAST动态应用程序安全测试》
-DAST在安全测试领域相当重要，不只是解决安全漏洞的有效方法，也是发现漏洞的最直接方法。尽管DAST有时弊病百出，比如效果严重依赖测试人员技术水平、不当的测试会对系统产生影响、特定漏洞无法检测等问题。但DAST的出现直接推动了安全漏洞的出现。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月17日，最近的一次更新时间为2022年2月19日。
+![DAST](https://socialify.git.ci/ASTTeam/DAST/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
+
+DAST在安全测试领域相当重要，不仅是发现漏洞的有效方法，也是发现漏洞的最直接方法。尽管DAST有时弊病百出，比如效果严重依赖有技术壁垒的爬虫技术、会产生大量的脏数据、特定漏洞无法检测等诸多问题。但DAST的出现直接推动了安全漏洞的出现。下一代DAST必然会因为成本较低而继续发展壮大！作者：[0e0w](https://github.com/0e0w)
+
+本项目创建于2022年1月17日，最近的一次更新时间为2022年10月23日。
 
 - [01-DAST资源](https://github.com/ASTTeam/DAST#01-dast%E8%B5%84%E6%BA%90)
 - [02-DAST工具](https://github.com/ASTTeam/DAST#02-dast%E5%B7%A5%E5%85%B7)
@@ -48,6 +51,7 @@ DAST在安全测试领域相当重要，不只是解决安全漏洞的有效方�
 - NESSUS
 - Xray
 - BurpSuite
+- https://www.zaproxy.org
 
 二、开源工具
 
